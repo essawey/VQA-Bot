@@ -1,5 +1,5 @@
 ######################## TELEGRAM BOT TOKEN ########################
-BOT_TOKEN = "7012939808:AAH9QNLi05Sm4FfqTjv7JF-QBJpkimHhVak"
+BOT_TOKEN = "ADD_YOUR_TOKEN_HERE"
 
 ######################## FEEDBACK MAPS ########################
 feedback_map = {
