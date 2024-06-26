@@ -1,5 +1,8 @@
 ######################## TELEGRAM BOT TOKEN ########################
-BOT_TOKEN = "ADD_YOUR_TOKEN_HERE"
+BOT_TOKEN = ""
+
+######################## ELEVEN_API_KEY ########################
+ELEVEN_API_KEY=""
 
 ######################## FEEDBACK MAPS ########################
 feedback_map = {
@@ -18,11 +21,3 @@ def print_ar(text):
     bidi_text = get_display(reshaped_text)
     print(bidi_text)
 
-######################## TRANSLATION LAYER ########################
-from deep_translator import GoogleTranslator
-
-def translate_ar_to_en(text: str) -> str:
-    return GoogleTranslator(source='ar', target='en').translate(text)
-
-def translate_en_to_ar(text: str) -> str:
-    return GoogleTranslator(source='en', target='ar').translate(text)
